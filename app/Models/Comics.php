@@ -9,3 +9,14 @@ class Comics extends Model
 {
     use HasFactory;
 }
+
+
+class Artist extends Model
+{
+    use HasFactory;
+}
+
+class Writer extends Model
+{
+    use HasFactory;
+}
